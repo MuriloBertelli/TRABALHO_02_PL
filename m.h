@@ -11,10 +11,10 @@ typedef struct
 
 Matriz alocaMatriz(int rows, int cols);
 void leMatrixDeArquivo(Matriz *m, const char *nomedoarquivo);
-void printMatrix(int rows, int cols, int **matrix);
 Matriz multiplicaMatrix(const Matriz *m1, const Matriz *m2);
 void escreveMatrizEmArquivo(const Matriz *m, const char *nomearquivo);
 void liberaMatriz(Matriz *m);
-void printMatrix(int rows, int cols, int **matrix);
+void printMatrix(Matriz *m);
+int ehpossivel(const Matriz *m1, const Matriz *m2);
 
 #endif
