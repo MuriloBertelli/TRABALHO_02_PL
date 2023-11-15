@@ -123,6 +123,7 @@ void liberaMatriz(Matriz *m)
     {
         free(m->elementos[i]);
     }
+
     free(m->elementos);
 }
 
