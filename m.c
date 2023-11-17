@@ -1,6 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "m.h"
+
+typedef struct
+{
+    int **elementos;
+    int rows;
+    int cols;
+
+} Matriz;
 
 // Matriz m;
 
